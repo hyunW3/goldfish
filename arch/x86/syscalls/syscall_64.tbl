@@ -325,6 +325,10 @@
 # 316	common	renameat2		sys_renameat2
 317	common	seccomp			sys_seccomp
 
+# hyunwoong Bae
+322 common	hyun_world		sys_hyun_world
+323	common 	segment			sys_segment
+324 common 	led	 			sys_led
 #
 # x32-specific system call numbers start at 512 to avoid cache impact
 # for native 64-bit operation.

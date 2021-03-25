@@ -537,6 +537,21 @@ config UID_CPUTIME
 	help
 	  Per UID based cpu time statistics exported to /proc/uid_cputime
 
+config GOLDFISH_SEGMENT
+	tristate "Android Goldifsh 7 segment"
+	help
+	  7 segment driver for Android Goldfish emulator
+
+config GOLDFISH_LED
+	tristate "Android Goldifsh 7 led"
+	help
+	  led driver for Android Goldfish emulator
+
+config GOLDFISH_IODEV
+	tristate "Android Goldifsh IO device"
+	help
+		IO device driver for Android Goldfish emulator
+
 source "drivers/misc/c2port/Kconfig"
 source "drivers/misc/eeprom/Kconfig"
 source "drivers/misc/cb710/Kconfig"
